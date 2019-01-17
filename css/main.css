@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+.box {
+	width: 730px;
+	margin: 25px auto;
+	background: rgba(125,125,255,0.4);
+	border: 1px solid #d1d1d1;
+	padding: 4px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 0px 10px #ddd;
+	-webkit-box-shadow: 0px 0px 10px #ddd;
+
+	}
+
+	.text
+	{
+		display:none;
+		margin: 15px;
+	}
+
+	.name
+	{
+		color:white;
+		margin: 30px;
+	
+		
+	}
+
+
+
+body
+{
+	 background-image: url(../images/background.jpg);
+	  font-family: 'Roboto', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+	}
+
+	 h3 {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 5px;
+	background: -moz-linear-gradient(center top, #dfdfdf 0%,#d0d0d0 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dfdfdf),color-stop(1, #d0d0d0));
+	border: 1px solid #d1d1d1;
+	color: rgba(125,125,125,0.7);
+	font-size: 18px;
+	font-weight: normal;
+	text-shadow: 1px 1px 0px #fff;
+	margin:0;
+	}
+h3 span {
+	float: right;
+	cursor: pointer;
+	}
+h3 span:hover {
+	text-shadow: 0px 0px 3px #a1eeff;
+	}
+ul {
+	padding: 5px;
+	overflow: hidden;
+	margin:0;
+	}
+ul li {
+	font-size: 13px;
+	list-style-type: square;
+	list-style-position: inside;
+	color: #d1d1d1;
+	padding: 5px;
+	}
